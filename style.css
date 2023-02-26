@@ -21,8 +21,8 @@ h1{
     color: 	#88f4be;
 }
 .box{
-    height: 304px;
-    width: 304px;
+    height: 306px;
+    width: 306px;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -33,16 +33,16 @@ h1{
 .box::before{
     content: '';
     position: absolute;
-    width: 305px;
-    height: 305px;
+    width: 306px;
+    height: 306px;
     background-image: conic-gradient(transparent, transparent, transparent,rgb(5, 255, 5, 0.545));
     animation: rotate 8s linear infinite;
 }
 .box::after{
     content: '';
     position: absolute;
-    width: 305px;
-    height: 305px;
+    width: 306px;
+    height: 306px;
     background-image: conic-gradient(transparent, transparent, transparent, rgb(5, 255, 5, 0.545));
     animation: rotate 8s linear infinite;
     animation-delay: -4s;
@@ -50,8 +50,8 @@ h1{
 .box:after{
     content: '';
     position: absolute;
-    width: 305px;
-    height: 305px;
+    width: 306px;
+    height: 306px;
     background-image: conic-gradient(transparent, transparent, transparent, rgba(5, 255, 5, 0.545));
     animation-delay: -4s;
 }
