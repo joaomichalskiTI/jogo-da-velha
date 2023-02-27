@@ -28,7 +28,7 @@ h1{
     align-items: center;
     position: relative;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .box::before{
     content: '';
